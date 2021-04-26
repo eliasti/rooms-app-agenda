@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"flake8" = "*"
+django = "*"
+isort = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+pytest-django = "*"
+djangorestframework = "*"
+coreapi = "*"
+django-filter = "*"
+drf-yasg = "*"
+dj-database-url = "*"
+dj-static = "*"
+"static3" = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+model-mommy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
