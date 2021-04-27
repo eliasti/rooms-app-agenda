@@ -25,8 +25,8 @@ SECRET_KEY = '_75&lj@==a@#(hlf)hp8-u=v&oqlr1fbf+xjxo3!!q#lbx1m+%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'https://rooms-agenda-app.herokuapp.com/', 'http://rooms-agenda-app.herokuapp.com/', '127.0.0.1']
-INTERNAL_IPS = ['*', 'https://rooms-agenda-app.herokuapp.com/', 'http://rooms-agenda-app.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+INTERNAL_IPS = ['localhost', '127.0.0.1']
 
 # Application definition
 
