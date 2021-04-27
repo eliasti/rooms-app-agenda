@@ -30,6 +30,8 @@ INTERNAL_IPS = ['localhost', '127.0.0.1']
 
 # Application definition
 
+ALLOWED_HOSTS = [".herokuapp.com", "https://rooms-agenda-app.herokuapp.com/"]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
