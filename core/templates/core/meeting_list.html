@@ -38,9 +38,9 @@
                             <td>{{ meeting.name|default:'' }}</td>
                             <td>{{ meeting.room.name|default:'' }}</td>
                             {% if meeting.status == 'scheduled' %}
-                                <td>agendada</td>
+                                <td>Agendada</td>
                             {% else %}
-                                <td style="color: red;">cancelada</td>
+                                <td style="color: red;">Finalizada</td>
                             {% endif %}
                             <td>{{ meeting.date|date:'d/m/Y'|default:'' }}</td>
                             <td>{{ meeting.start|date:'H:i'|default:'' }}</td>
@@ -52,7 +52,7 @@
             </table>
         {% else %}
             <div class="alert alert-danger" role="alert">
-                <strong>Oops!</strong> Nenhuma <a class="alert-link">reunião</a> agendada.
+                <strong>Oops!</strong> Nenhuma <a class="alert-link">reunião</a> Agendada.
             </div>
         {% endif %}
     </div>

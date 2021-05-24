@@ -29,9 +29,11 @@ router.register(r'rooms', api_views.RoomViewSet)
 router.register(r'meetings', api_views.MeetingViewSet)
 
 
+
+
 schema_view = get_schema_view(
    openapi.Info(
-      title="rooms",
+      title="Reservei",
       default_version='v1',
       description="agendamento de salas",
       contact=openapi.Contact(email=""),
